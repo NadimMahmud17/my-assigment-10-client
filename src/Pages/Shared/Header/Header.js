@@ -1,9 +1,11 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
+    const {user, logOut} = useAuth();
     return (
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" sticky="top">
@@ -11,15 +13,18 @@ const Header = () => {
                     <Navbar.Brand  to="/">Doctors</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
+                        
                         <Link  to="/home">Home</Link>
                         <Link to="/services">Services</Link>
-                        <Link  to="/login">LogIn</Link>
-                        {/* {user?.email ?
-                            <Button onClick={} variant="light">Logout</Button> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>} */}
-                        {/* <Navbar.Text>
+                        
+                        {user?.email ?
+                            <Button onClick={logOut} variant="light">Logout</Button> :
+                            <Link to="/login">Login</Link>}
+                        <Navbar.Text>
                             Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text> */}
+                        </Navbar.Text>
+                    
+                        
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

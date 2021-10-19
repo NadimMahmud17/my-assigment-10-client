@@ -7,6 +7,8 @@ import Description from './Pages/Description/Description';
 import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
+import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 
 
@@ -17,6 +19,7 @@ import Header from './Pages/Shared/Header/Header';
 function App() {
   return (
     <div className ="App">
+      <AuthProvider>
       <Router>
         <Header></Header>
         <Switch>
@@ -32,9 +35,9 @@ function App() {
             <Login></Login>
           </Route>
 
-          <Route path="/details/:servicsId">
+          <PrivateRoute path="/details/:servicsId">
             <Description></Description>
-          </Route>
+          </PrivateRoute>
 
           <Route path="*">
             <NotFound></NotFound>
@@ -44,6 +47,7 @@ function App() {
 
         </Switch>
       </Router>
+      </AuthProvider>
 
     </div>
   );
