@@ -10,6 +10,9 @@ import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Register from './Pages/Register/Register';
+import Dentists from './Pages/Dentists/Dentists';
+import Footer from './Pages/Footer/Footer';
+import About from './Pages/About/About';
 
 
 
@@ -40,9 +43,19 @@ function App() {
             <Description></Description>
           </PrivateRoute>
 
+          <PrivateRoute path="/dentist">
+            <Dentists></Dentists>
+          </PrivateRoute>
+
+          <Route path="/about">
+              <About></About>
+          </Route>
+
           <Route path="/register">
             <Register></Register>
           </Route>
+
+          
 
           <Route path="*">
             <NotFound></NotFound>
@@ -51,6 +64,7 @@ function App() {
           
 
         </Switch>
+        <Footer></Footer>
       </Router>
       </AuthProvider>
 

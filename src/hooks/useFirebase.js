@@ -5,6 +5,10 @@ import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
 initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
+    const [isLoading, setIsLoading] = useState(true)
+
+
+
 // coppy
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
@@ -19,11 +23,13 @@ const [email, setEmail] = useState('');
 
 
     const sinInUsingGoogle = () => {
+        setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
         .then(result => {
             setUser(result.user)
         })
+        .finally( () => setIsLoading(false));
         
     }
 //  >>>>>>>
@@ -117,8 +123,10 @@ const toggleLogin = e => {
 
 
     const logOut = () => {
+        setIsLoading(true);
         signOut(auth)
-        .then(() =>{ } );
+        .then(() =>{ } )
+        .finally( () => setIsLoading(false));
     }
 
 
@@ -131,6 +139,7 @@ const toggleLogin = e => {
             else{
                 setUser({})
             }
+            setIsLoading(false);
         });
         return () => unsubscribed;
 
@@ -141,6 +150,7 @@ const toggleLogin = e => {
 
     return {
         user,
+        isLoading,
         sinInUsingGoogle,
         logOut,
         toggleLogin,

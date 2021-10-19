@@ -6,6 +6,8 @@ const Login = () => {
     const { sinInUsingGoogle } = useAuth();
     return (
         <div>
+            <br />
+            <br />
             <h2>Please Sin-In</h2>
 
             
@@ -14,7 +16,26 @@ const Login = () => {
 
             <div>--------or----------</div>
 
+            
+            
+            
             <button onClick={ sinInUsingGoogle } className="btn btn-info">Google Sine In</button>
+
+
+
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     );
 };
