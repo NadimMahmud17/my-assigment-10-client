@@ -9,6 +9,7 @@ import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Register from './Pages/Register/Register';
 
 
 
@@ -38,6 +39,10 @@ function App() {
           <PrivateRoute path="/details/:servicsId">
             <Description></Description>
           </PrivateRoute>
+
+          <Route path="/register">
+            <Register></Register>
+          </Route>
 
           <Route path="*">
             <NotFound></NotFound>

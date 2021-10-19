@@ -10,7 +10,7 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" sticky="top">
                 <Container>
-                    <Navbar.Brand  to="/">Doctors</Navbar.Brand>
+                    <Navbar.Brand  to="/home">Doctors</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         
