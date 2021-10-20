@@ -9,7 +9,7 @@ const useFirebase = () => {
 
 
 
-// coppy
+
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -18,7 +18,7 @@ const [email, setEmail] = useState('');
 
 
 
-// >>>
+
     const auth = getAuth();
 
 
@@ -32,8 +32,8 @@ const [email, setEmail] = useState('');
         .finally( () => setIsLoading(false));
         
     }
-//  >>>>>>>
-// copy
+
+
 
 const toggleLogin = e => {
     setIsLogin(e.target.checked)
