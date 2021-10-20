@@ -7,11 +7,11 @@ const Service = ({service}) => {
     const{name, image, description, id} = service
     return (
         <div className="service pb-3">
-            <img src={image} alt="" srcset="" />
+            <img className="boder" src={image} alt="" srcset="" />
             <h3>{name}</h3>
             <p className="px-3">{description}</p>
 
-            <Link to={`/details/${id}`}> <button className="btn btn-warning">Read More</button></Link>
+            <Link to={`/details/${id}`}> <button className="btn btn-info">Read More</button></Link>
         </div>
     );
 };

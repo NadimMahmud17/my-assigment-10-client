@@ -11,7 +11,7 @@ const Header = () => {
     return (
         
             <div>
-                <Navbar bg="dark" variant="warning" sticky="top" collapseOnSelect expand="lg" sticky="top">
+                <Navbar bg="dark" variant="warning" sticky="top" collapseOnSelect expand="lg">
                 <Container>
                     
                   

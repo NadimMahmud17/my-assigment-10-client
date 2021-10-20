@@ -9,7 +9,7 @@ const Footer = () => {
                 <p>we have grate news for you, in future <br />we will lounce 6 month full time job preparing training.<br /> This dental services will help you in your proffessional life.<br /> Our Doctors will be most expertise and most proffessional</p>
             </div>
             <div>
-                <h1>Our Courses</h1>
+                <h1>Our Dental Services</h1>
                 <ul>
                     <li>Dental Crowns</li>
                     <li>Cosmetic Fillings </li>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <input type="text" placeholder='Enter your email' />
                 <br />
                 <br />
-                <button type="button" class="btn btn-warning">Subscribe</button>
+                <button type="button" class="btn btn-warning">Follow</button>
             </div>
         
         </div>
