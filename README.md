@@ -37,10 +37,3 @@ Click this link [Dental-Care Unit](https://dental-care-unit-nadim-mahmud17.netli
 
 
 
- 
-Shakib
-Firebase
-Shakib
-context api
-Shakib
-bootstrap\
