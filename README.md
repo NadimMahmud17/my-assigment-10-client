@@ -28,4 +28,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # More information and tips
 Click this link [Dental-Care Unit](https://dental-care-unit-nadim-mahmud17.netlify.app/)
-- Have a good Luck for dental care at home
+- This app are very helpful
+- I am useing this project feacture and function
+- Hosting This app in Google Firebase
+- Also useing context api
+- My fist choice bootstrap, that why i'm useing React Bootsrap
+- React Routing dom for useing private route in react router
+
+
+
+ 
+Shakib
+Firebase
+Shakib
+context api
+Shakib
+bootstrap\
