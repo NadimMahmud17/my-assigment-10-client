@@ -6,7 +6,8 @@
   "id": 1,
   "name": "Dental Crowns",
   "description": "A dental crown is a dental prosthesis which replaces the visible part of a tooth. A dental crown functions to strengthen teeth, restore their original shape, and improve their appearance. Dental crowns are also used to hold dental bridges in place and cover dental implants.",
-  "image": "https://i.ibb.co/LShYjrw/diana-polekhina-4n-UZl0-FZM3-U-unsplash.jpg"
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYLpyM8XjpCat79OnpC77HfFBpfodo8PZzw&usqp=CAU"
+ 
   
 },
 
@@ -14,14 +15,14 @@
   "id": 2,
   "name": "Cosmetic Fillings",
   "description": "Cosmetic fillings, or tooth- colored fillings, are made of composite resin and glass particles. They are cemented onto the existing teeth using a bonding agent. Cosmetic fillings can improve the appearance of your smile. Unlike silver-colored fillings, cosmetic fillings look just like your natural teeth.",
-  "image": "https://i.ibb.co/xXm5N3D/elena-mozhvilo-Yzyvxfzddz-A-unsplash.jpg"
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmltF3rt3ZWDBWjUg4Ll04MXHGYJsGBuOA1l0v4fpOuneW5Qkdhti5WHt7OfKajbKzKA&usqp=CAU"
 },
 
   {
   "id": 3,
   "name": "Dental Bonding",
   "description": "Dental bonding is a technique used to correct imperfections with your teeth to give you a better-looking smile. Bonding is used to repair chipped teeth, decayed teeth, and cracked teeth.",
-  "image": "https://i.ibb.co/9wLtRm9/enis-yavuz-QT7yt-JJw-An-Y-unsplash.jpg"
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnV3iGvud4JAgXniNWhWtnIx_0_4GJu_z3Fw&usqp=CAU"
 },
 
   {
@@ -40,13 +41,15 @@
   "id": 6,
   "name": "Dental Sealants",
   "description": "Sealants are made of plastic and are applied to the chewing surfaces of the back teeth to prevent tooth decay. Sealants are painted on as a liquid and harden to form a shield over the teeth. Having sealants put on your teeth will save you money in the long run by avoiding dental fillings, crowns, and other dental treatments.",
-  "image": "https://i.ibb.co/8r7xMHQ/nick-fewings-BPDJLWz-Bog-unsplash.jpg"
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8SVhqBq8EbcwNqwyenXLXHOuqBGvUHbhoWg&usqp=CAU"
+  
 },
   {
   "id": 7,
   "name": "Dentures",
   "description": "Have you lost most or all of your teeth? Dentures are removable appliances that can replace missing teeth. A complete denture is used when all of the patient's teeth are missing. A partial denture is used when only some of the teeth are missing. Today's dentures are natural looking and more comfortable than ever.",
-  "image": "https://i.ibb.co/b7SkkTW/quang-tri-nguyen-6-SAzf-Kla3-IE-unsplash.jpg"
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKK84wt3DR0JBWmQhN1XJzUGdxA5RidKh5gQ&usqp=CAU"
+  
 },
   {
   "id": 8,
